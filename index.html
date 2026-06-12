@@ -47,6 +47,7 @@
             <td><mark>In Stock</mark></td>
         </tr>
     </table>
+    <br>
     <hr>
 
     <h2>📝 School Textbooks</h2>
@@ -73,6 +74,34 @@
             <td><del>Out of Stock</del></td>
         </tr>
     </table>
+    <br>
+    <hr>
+
+    <h2>🛒 Quick Order Reservation </h2>
+    <fieldset>
+        <legend>Order Details</legend>
+        <form>
+            <label for="admission no.">Student Admission No:</label><br>
+            <input type="text" id="admission no." placeholder="e.g.,ST-1234" name="Admission No"><br><br>
+
+            <label for="book reserve">Select Book to Reserve:</label><br>
+            <select id="book reserve" name="book reservations">
+                <option value="TSI 850">The Secret Island (Rs.850.00)</option>
+                <option value="MD 600">Madol Doova</option>
+                <option value="ICT GR 11/10 E">Information & Communication Technology (ICT) Grade 10/11 English medium</option>
+            </select>
+            <br><br>
+
+            <label for="pref. collection date">Preferred Collection Date:</label><br>
+            <input type="date" id="pref. collection date" name="pref. collection date"><br><br>
+            
+            <label for="special note">Special Notes/Instruction:</label><br>
+            <textarea placeholder="Any specific requirements..."></textarea><br><br>
+
+            <input type="submit" value="Submit Reservation">
+            <input type="reset" value="Reset Form">
+        </form>
+    </fieldset>
 
 </body>
 
